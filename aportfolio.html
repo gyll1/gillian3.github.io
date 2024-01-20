@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+            background:linear-gradient(to right, pink, rgb(108, 108, 236));
+            animation: gradient 8s ease infinite;
+            height: 100vh;
+        }
+
+        @keyframes gradient {
+          0%{
+            background-position: 0% 50%;
+          }
+          50%{
+            background-position: 0% 50%;
+          }
+          100%{
+            background-position: 0% 50%;
+          }
+        }
+        
+        .project-link-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 25px;
+        }
+        
+        .project-link-box h4 {
+            margin-top: 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: linear-gradient(to right, black, grey);">
+            <a class="navbar-brand"  style="border-radius:25px; color:white; background:linear-gradient(to right, aqua, pink);" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="py-5">
+            <div class="container" style="border-radius: 25px; background: linear-gradient(to right, pink, aqua); border: 1px solid #ccc;">
+                <h2>About Me</h2>
+                       <p>
+            Hello, I'm Gillian P. Quinto! I'm currently 20 years old, turning 21 on February 2. I have a passion for various hobbies including reading, watching series, photography, cooking, and gardening. These activities allow me to explore and express my creativity in different ways.
+        </p>
+        <p>
+            Reading has always been a favorite pastime of mine. I love diving into different worlds and experiencing stories through the pages of books. When I'm not immersed in a good book, you can find me binge-watching series and getting lost in captivating storylines and characters.
+        </p>
+        <p>
+            Photography is another passion of mine. I enjoy capturing moments and finding beauty in the world around me. Whether it's landscapes, portraits, or still life, I find joy in preserving memories and expressing my unique perspective through the lens.
+        </p>
+        <p>
+            Cooking is a creative outlet for me. I love experimenting with flavors and trying out new recipes. It's a wonderful way for me to express my love for food and share delicious meals with friends and family.
+        </p>
+        <p>
+            Gardening is a relaxing and rewarding activity for me. I find solace in tending to plants, watching them grow, and creating a beautiful and serene environment. It's a wonderful way to connect with nature and find balance in my daily life.
+        </p>
+        <p>
+            Overall, I'm a curious and creative individual who finds joy in exploring various interests. I'm always seeking new experiences and opportunities to learn and grow. Thanks for visiting my portfolio!
+        </p>
+            </div>
+        </section>
+
+        <section id="skills" class="py-5 bg-light" style="border-radius:25px; color:white; background:linear-gradient(to right, black, grey)">
+            <div class="container" style="background:linear-gradient(to right, rgb(138, 56, 56), aqua, pink)">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="py-5">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="project-link-box">
+                            <h4>Project 1</h4>
+                            <p>e-commerce</p>
+                            <a href="index.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project-link-box">
+                            <h4>Project 2</h4>
+                            <p>fashion e-commerce</p>
+                            <a href="fashion.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="project-link-box">
+                          <h4>Project 2</h4>
+                          <p>OTW</p>
+                          <a href="#" class="btn btn-primary">View Project</a>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-link-box">
+                        <h4>Project 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis quam eu mauris
+                            malesuada, a efficitur nisl placerat.</p>
+                        <a href="OTW" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-3">
+        <div class="container text-center">
+            <p>&copy; all rights reserve to Gillian P. Quinto 2024 My Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
